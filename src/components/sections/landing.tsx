@@ -6,7 +6,7 @@ import { FC, JSX } from 'react';
 import ProfilePhoto from '@/assets/profile.jpg';
 import contactInfo from '@/constants/contactInfo';
 import getDuration from '@/utils/getDuration';
-import { GitHub, LinkedIn, MessageOutlined, PhoneOutlined } from '@mui/icons-material';
+import { GitHub, LinkedIn, MailOutline, PhoneOutlined } from '@mui/icons-material';
 import { Box, Button, Chip, Container, Grid, Stack, Tooltip, Typography } from '@mui/material';
 
 // ------------------------------------------------------------------------------------------
@@ -104,7 +104,7 @@ const Landing: FC = (): JSX.Element => {
                                             component='a'
                                             href={`mailto:${contactInfo.email}`}
                                         >
-                                            <MessageOutlined />
+                                            <MailOutline />
                                         </Button>
                                     </Tooltip>
                                     <Tooltip title='View GitHub Profile'>
