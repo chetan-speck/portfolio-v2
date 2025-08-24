@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.3.0...v1.4.0) (2025-08-24)
+
+
+### Features
+
+* **projects:** add professional & personal projects section ([ade22c2](https://github.com/chetan-speck/personal-portfolio/commit/ade22c2ff9b087a96212cae444c206119b8f2156))
+
 # [1.3.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.2.0...v1.3.0) (2025-08-24)
 
 
