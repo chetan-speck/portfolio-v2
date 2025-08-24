@@ -62,9 +62,10 @@ const Landing: FC = (): JSX.Element => {
                                     component='p'
                                     sx={{ color: 'text.secondary' }}
                                 >
-                                    With {getDuration(new Date('2021-07-26'), new Date())} months of
-                                    hands-on experience, I focus on what works and deliver results
-                                    that matter.
+                                    With {getDuration(new Date('2021-07-26'), new Date())} of
+                                    hands-on experience, I genuinely enjoy being part of something
+                                    in progress and find real joy in the process of creating and
+                                    bringing ideas to life.
                                 </Typography>
                                 <Stack
                                     direction='row'
