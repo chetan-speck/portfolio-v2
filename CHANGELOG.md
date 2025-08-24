@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.0.0...v1.1.0) (2025-08-24)
+
+
+### Features
+
+* **landing:** update experience description text for improved tone and clarity ([ce3bc9d](https://github.com/chetan-speck/personal-portfolio/commit/ce3bc9d36b57bfc0a3b235674e7179003e1aecc8))
+
 # 1.0.0 (2025-08-20)
 
 
