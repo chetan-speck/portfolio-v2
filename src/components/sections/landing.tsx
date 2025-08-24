@@ -1,8 +1,14 @@
 // ------------------------------------------------------------------------------------------
 
+'use client';
+
+// ------------------------------------------------------------------------------------------
+
 import Image from 'next/image';
 import { FC, JSX } from 'react';
 
+import BauhausSectorDarkSvg from '@/assets/bauhaus-sector-dark.svg';
+import BauhausSectorLightSvg from '@/assets/bauhaus-sector-light.svg';
 import ProfilePhoto from '@/assets/profile.jpg';
 import contactInfo from '@/constants/contactInfo';
 import getDuration from '@/utils/getDuration';
@@ -15,11 +21,20 @@ const Landing: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
-            sx={{
-                minHeight: { xs: 'fit-content', sm: '100vh' },
-                display: 'flex',
-                alignItems: 'center',
-            }}
+            sx={[
+                (theme) => ({
+                    minHeight: { xs: 'fit-content', sm: '100vh' },
+                    display: 'flex',
+                    alignItems: 'center',
+                    backgroundImage: `linear-gradient(to bottom, transparent, ${theme.palette.background.default} 75%), url(${BauhausSectorLightSvg.src})`,
+                    backgroundSize: 'contain',
+                    backgroundPosition: 'center, center',
+                }),
+                (theme) =>
+                    theme.applyStyles('dark', {
+                        backgroundImage: `linear-gradient(to bottom, transparent, var(--mui-palette-background-default) 75%), url(${BauhausSectorDarkSvg.src})`,
+                    }),
+            ]}
         >
             <Container
                 sx={{
@@ -37,14 +52,20 @@ const Landing: FC = (): JSX.Element => {
                             <Stack spacing={1}>
                                 <Typography
                                     component='p'
-                                    sx={{ color: 'text.secondary' }}
+                                    sx={{
+                                        color: 'text.secondary',
+                                    }}
                                 >
                                     Hi there, I am
                                 </Typography>
                                 <Typography
                                     component='h1'
                                     variant='h1'
-                                    sx={{ color: 'text.primary', fontSize: { xs: 42, sm: 72 } }}
+                                    sx={{
+                                        color: 'text.primary',
+                                        fontSize: { xs: 42, sm: 72 },
+                                        fontWeight: 500,
+                                    }}
                                 >
                                     Chetan Thosare
                                 </Typography>
@@ -60,6 +81,7 @@ const Landing: FC = (): JSX.Element => {
                             <Stack spacing={{ xs: 2, sm: 3 }}>
                                 <Typography
                                     component='p'
+                                    variant='body1'
                                     sx={{ color: 'text.secondary' }}
                                 >
                                     With {getDuration(new Date('2021-07-26'), new Date())} of
