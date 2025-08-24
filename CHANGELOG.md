@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.2.0...v1.3.0) (2025-08-24)
+
+
+### Features
+
+* **experience:** implement Experience section ([867f2d5](https://github.com/chetan-speck/personal-portfolio/commit/867f2d5639ad8dd70264e0018071e963b9c0e118))
+
 # [1.2.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.1.0...v1.2.0) (2025-08-24)
 
 
