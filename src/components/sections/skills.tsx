@@ -246,7 +246,7 @@ const Skills: FC = (): JSX.Element => {
                                                         target='_blank'
                                                         rel='noopener noreferrer'
                                                         sx={{
-                                                            color: 'text.secondary.10',
+                                                            color: 'text.secondary',
                                                         }}
                                                     >
                                                         <OpenInNewOutlined fontSize='small' />
