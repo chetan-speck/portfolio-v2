@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.1.0...v1.2.0) (2025-08-24)
+
+
+### Features
+
+* **skills:** implement Skills section ([5f9027f](https://github.com/chetan-speck/personal-portfolio/commit/5f9027f9c67d04ef29d0815ebab17cba2566b601))
+
 # [1.1.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.0.0...v1.1.0) (2025-08-24)
 
 
