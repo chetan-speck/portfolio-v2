@@ -22,6 +22,7 @@ import {
 
 import LuminousGlobeThumbnail from '@/assets/luminous-globe-thumbnail.png';
 import NumericHorizonThumbnail from '@/assets/numeric-horizon-thumbnail.png';
+import sectionIds from '@/constants/sectionIds';
 import { OpenInNewOutlined } from '@mui/icons-material';
 import {
     Box,
@@ -199,6 +200,7 @@ const Projects: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.projects}
             sx={{
                 borderTopWidth: '1px',
                 borderTopStyle: 'solid',

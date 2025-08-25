@@ -2,6 +2,7 @@
 
 import { FC, JSX } from 'react';
 
+import sectionIds from '@/constants/sectionIds';
 import { Box, Container, Stack, Typography } from '@mui/material';
 
 // ------------------------------------------------------------------------------------------
@@ -10,6 +11,7 @@ const About: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.about}
             sx={{
                 borderTopWidth: '1px',
                 borderTopStyle: 'solid',

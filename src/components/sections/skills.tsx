@@ -22,6 +22,7 @@ import {
     SiTypescript,
 } from 'react-icons/si';
 
+import sectionIds from '@/constants/sectionIds';
 import { OpenInNewOutlined } from '@mui/icons-material';
 import { Box, Card, Chip, Container, Grid, IconButton, Stack, Typography } from '@mui/material';
 
@@ -158,6 +159,7 @@ const Skills: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.skills}
             sx={{
                 borderTopWidth: '1px',
                 borderTopStyle: 'solid',

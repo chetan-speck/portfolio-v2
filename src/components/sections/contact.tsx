@@ -9,6 +9,7 @@ import { Controller, useForm } from 'react-hook-form';
 import * as yup from 'yup';
 
 import contactInfo from '@/constants/contactInfo';
+import sectionIds from '@/constants/sectionIds';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { ContentCopy, GitHub, LinkedIn, MailOutline, PhoneOutlined } from '@mui/icons-material';
 import {
@@ -87,6 +88,7 @@ const Contact: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.contact}
             sx={{
                 borderTopWidth: '1px',
                 borderTopStyle: 'solid',

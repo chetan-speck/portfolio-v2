@@ -4,6 +4,7 @@ import { format } from 'date-fns';
 import Link from 'next/link';
 import { FC, JSX } from 'react';
 
+import sectionIds from '@/constants/sectionIds';
 import { Box, Card, Container, Stack, Typography } from '@mui/material';
 
 // ------------------------------------------------------------------------------------------
@@ -79,6 +80,7 @@ const Experience: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.experience}
             sx={{
                 borderTopWidth: '1px',
                 borderTopStyle: 'solid',

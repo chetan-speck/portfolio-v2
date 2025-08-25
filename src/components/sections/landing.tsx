@@ -11,6 +11,7 @@ import BauhausSectorDarkSvg from '@/assets/bauhaus-sector-dark.svg';
 import BauhausSectorLightSvg from '@/assets/bauhaus-sector-light.svg';
 import ProfilePhoto from '@/assets/profile.jpg';
 import contactInfo from '@/constants/contactInfo';
+import sectionIds from '@/constants/sectionIds';
 import getDuration from '@/utils/getDuration';
 import { GitHub, LinkedIn, MailOutline, PhoneOutlined } from '@mui/icons-material';
 import { Box, Button, Chip, Container, Grid, Stack, Tooltip, Typography } from '@mui/material';
@@ -21,6 +22,7 @@ const Landing: FC = (): JSX.Element => {
     return (
         <Box
             component='section'
+            id={sectionIds.landing}
             sx={[
                 (theme) => ({
                     minHeight: { xs: 'fit-content', sm: '100vh' },
