@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.4.0...v1.5.0) (2025-08-25)
+
+
+### Features
+
+* **about:** add About section ([95ceb1b](https://github.com/chetan-speck/personal-portfolio/commit/95ceb1b7ea58fd56b63815de268ef5dba63cea34))
+
 # [1.4.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.3.0...v1.4.0) (2025-08-24)
 
 
