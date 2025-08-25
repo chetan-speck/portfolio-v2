@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.7.0...v1.8.0) (2025-08-25)
+
+
+### Features
+
+* **header:** add header ([3d2159f](https://github.com/chetan-speck/personal-portfolio/commit/3d2159fb844f19221d9fbf1b3ce1e21093584e65))
+
 # [1.7.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.6.0...v1.7.0) (2025-08-25)
 
 
