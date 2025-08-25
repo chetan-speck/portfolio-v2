@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.5.0...v1.6.0) (2025-08-25)
+
+
+### Features
+
+* **contact:** add Contact section ([81d0aab](https://github.com/chetan-speck/personal-portfolio/commit/81d0aabac6546d0af165c175486e5a4ca68ec2b5))
+
 # [1.5.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.4.0...v1.5.0) (2025-08-25)
 
 
