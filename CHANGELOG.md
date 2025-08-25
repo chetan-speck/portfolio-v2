@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.6.0...v1.7.0) (2025-08-25)
+
+
+### Features
+
+* **tic-tac-toe:** add Tic-Tac-Toe section ([26e8d07](https://github.com/chetan-speck/personal-portfolio/commit/26e8d0798d832103d19d861024283bee2f9dff7f))
+
 # [1.6.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.5.0...v1.6.0) (2025-08-25)
 
 
