@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.9.0...v1.10.0) (2026-01-09)
+
+
+### Features
+
+* add new tech items including Tailwind CSS, Shadcn/ui, Material UI, Docker, and n8n ([898a3d3](https://github.com/chetan-speck/personal-portfolio/commit/898a3d3e0c298397eff3d550eb47cbb8b52ab3bc))
+
 # [1.9.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.8.0...v1.9.0) (2025-08-25)
 
 
