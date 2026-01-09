@@ -4,22 +4,9 @@ import Link from 'next/link';
 import { FC, JSX } from 'react';
 import { IconType } from 'react-icons';
 import {
-    SiCss3,
-    SiExpress,
-    SiGit,
-    SiHtml5,
-    SiJavascript,
-    SiJsonwebtokens,
-    SiMongodb,
-    SiMysql,
-    SiNestjs,
-    SiNextdotjs,
-    SiNodedotjs,
-    SiPostgresql,
-    SiReact,
-    SiSass,
-    SiThreedotjs,
-    SiTypescript,
+    SiCss3, SiDocker, SiExpress, SiGit, SiHtml5, SiJavascript, SiJsonwebtokens, SiMongodb, SiMui,
+    SiMysql, SiN8N, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSass, SiShadcnui,
+    SiTailwindcss, SiThreedotjs, SiTypescript
 } from 'react-icons/si';
 
 import sectionIds from '@/constants/sectionIds';
@@ -59,6 +46,13 @@ const techStack: TechItem[] = [
         link: 'https://sass-lang.com/',
         description: 'CSS preprocessor that adds variables, nesting, and modularity.',
         areas: ['Frontend'],
+    },
+    {
+        name: 'Tailwind CSS',
+        icon: SiTailwindcss,
+        link: 'https://tailwindcss.com/',
+        description: 'Utility-first CSS framework for rapidly building custom user interfaces.',
+        areas: ['Frontend', 'Styling'],
     },
     {
         name: 'JavaScript',
@@ -150,6 +144,37 @@ const techStack: TechItem[] = [
         link: 'https://git-scm.com/',
         description: 'Distributed version control system for source code management.',
         areas: ['Version Control', 'Collaboration'],
+    },
+    {
+        name: 'Shadcn/ui',
+        icon: SiShadcnui,
+        link: 'https://ui.shadcn.com/',
+        description:
+            'Beautifully designed, accessible components built with Radix UI and Tailwind CSS. Copy-paste ready, fully customizable.',
+        areas: ['Frontend', 'UI Components'],
+    },
+    {
+        name: 'Material UI',
+        icon: SiMui,
+        link: 'https://mui.com/material-ui/',
+        description:
+            "Comprehensive React component library implementing Google's Material Design with excellent customization and accessibility.",
+        areas: ['Frontend', 'UI Components'],
+    },
+    {
+        name: 'Docker',
+        icon: SiDocker,
+        link: 'https://www.docker.com/',
+        description: 'Platform for developing, shipping, and running applications in containers.',
+        areas: ['DevOps', 'Deployment'],
+    },
+    {
+        name: 'n8n',
+        icon: SiN8N,
+        link: 'https://n8n.io/',
+        description:
+            'Powerful open-source workflow automation tool with node-based visual programming.',
+        areas: ['Automation', 'Backend', 'Integrations'],
     },
 ];
 
