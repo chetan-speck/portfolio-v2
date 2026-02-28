@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.10.0...v1.11.0) (2026-02-28)
+
+
+### Features
+
+* add a new journey route ([85b5601](https://github.com/chetan-speck/personal-portfolio/commit/85b5601caa2fa3c5933805ffc6a07de6e5006a97))
+
 # [1.10.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.9.0...v1.10.0) (2026-01-09)
 
 
