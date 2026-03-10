@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.11.0...v1.12.0) (2026-03-10)
+
+
+### Features
+
+* remove journey page and layout ([3030315](https://github.com/chetan-speck/personal-portfolio/commit/3030315eb5d398055fb0985c15e7c7130a0a9d7f))
+
 # [1.11.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.10.0...v1.11.0) (2026-02-28)
 
 
