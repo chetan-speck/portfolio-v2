@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.12.0...v1.13.0) (2026-04-27)
+
+
+### Features
+
+* update profile photo, refine colors and minor UI tweaks ([b8879bf](https://github.com/chetan-speck/personal-portfolio/commit/b8879bfa11a95a754dd8c8d981d6c89776e7e7c7))
+
 # [1.12.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.11.0...v1.12.0) (2026-03-10)
 
 ### Features
