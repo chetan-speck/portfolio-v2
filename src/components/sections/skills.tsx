@@ -4,9 +4,27 @@ import Link from 'next/link';
 import { FC, JSX } from 'react';
 import { IconType } from 'react-icons';
 import {
-    SiCss3, SiDocker, SiExpress, SiGit, SiHtml5, SiJavascript, SiJsonwebtokens, SiMongodb, SiMui,
-    SiMysql, SiN8N, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSass, SiShadcnui,
-    SiTailwindcss, SiThreedotjs, SiTypescript
+    SiCss3,
+    SiDocker,
+    SiExpress,
+    SiGit,
+    SiHtml5,
+    SiJavascript,
+    SiJsonwebtokens,
+    SiMongodb,
+    SiMui,
+    SiMysql,
+    SiN8N,
+    SiNestjs,
+    SiNextdotjs,
+    SiNodedotjs,
+    SiPostgresql,
+    SiReact,
+    SiSass,
+    SiShadcnui,
+    SiTailwindcss,
+    SiThreedotjs,
+    SiTypescript,
 } from 'react-icons/si';
 
 import sectionIds from '@/constants/sectionIds';
@@ -209,7 +227,7 @@ const Skills: FC = (): JSX.Element => {
                             fontWeight: 500,
                         }}
                     >
-                        Skills
+                        Things I Build With
                     </Typography>
                     <Stack
                         direction='column'

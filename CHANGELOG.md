@@ -1,90 +1,77 @@
 # [1.12.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.11.0...v1.12.0) (2026-03-10)
 
-
 ### Features
 
-* remove journey page and layout ([3030315](https://github.com/chetan-speck/personal-portfolio/commit/3030315eb5d398055fb0985c15e7c7130a0a9d7f))
+- remove journey page and layout ([3030315](https://github.com/chetan-speck/personal-portfolio/commit/3030315eb5d398055fb0985c15e7c7130a0a9d7f))
 
 # [1.11.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.10.0...v1.11.0) (2026-02-28)
 
-
 ### Features
 
-* add a new journey route ([85b5601](https://github.com/chetan-speck/personal-portfolio/commit/85b5601caa2fa3c5933805ffc6a07de6e5006a97))
+- add a new journey route ([85b5601](https://github.com/chetan-speck/personal-portfolio/commit/85b5601caa2fa3c5933805ffc6a07de6e5006a97))
 
 # [1.10.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.9.0...v1.10.0) (2026-01-09)
 
-
 ### Features
 
-* add new tech items including Tailwind CSS, Shadcn/ui, Material UI, Docker, and n8n ([898a3d3](https://github.com/chetan-speck/personal-portfolio/commit/898a3d3e0c298397eff3d550eb47cbb8b52ab3bc))
+- add new tech items including Tailwind CSS, Shadcn/ui, Material UI, Docker, and n8n ([898a3d3](https://github.com/chetan-speck/personal-portfolio/commit/898a3d3e0c298397eff3d550eb47cbb8b52ab3bc))
 
 # [1.9.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.8.0...v1.9.0) (2025-08-25)
 
-
 ### Features
 
-* **footer:** add footer ([09adc2d](https://github.com/chetan-speck/personal-portfolio/commit/09adc2dfe8094fb70eb139c9eb36abd0b27a5db9))
+- **footer:** add footer ([09adc2d](https://github.com/chetan-speck/personal-portfolio/commit/09adc2dfe8094fb70eb139c9eb36abd0b27a5db9))
 
 # [1.8.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.7.0...v1.8.0) (2025-08-25)
 
-
 ### Features
 
-* **header:** add header ([3d2159f](https://github.com/chetan-speck/personal-portfolio/commit/3d2159fb844f19221d9fbf1b3ce1e21093584e65))
+- **header:** add header ([3d2159f](https://github.com/chetan-speck/personal-portfolio/commit/3d2159fb844f19221d9fbf1b3ce1e21093584e65))
 
 # [1.7.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.6.0...v1.7.0) (2025-08-25)
 
-
 ### Features
 
-* **tic-tac-toe:** add Tic-Tac-Toe section ([26e8d07](https://github.com/chetan-speck/personal-portfolio/commit/26e8d0798d832103d19d861024283bee2f9dff7f))
+- **tic-tac-toe:** add Tic-Tac-Toe section ([26e8d07](https://github.com/chetan-speck/personal-portfolio/commit/26e8d0798d832103d19d861024283bee2f9dff7f))
 
 # [1.6.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.5.0...v1.6.0) (2025-08-25)
 
-
 ### Features
 
-* **contact:** add Contact section ([81d0aab](https://github.com/chetan-speck/personal-portfolio/commit/81d0aabac6546d0af165c175486e5a4ca68ec2b5))
+- **contact:** add Contact section ([81d0aab](https://github.com/chetan-speck/personal-portfolio/commit/81d0aabac6546d0af165c175486e5a4ca68ec2b5))
 
 # [1.5.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.4.0...v1.5.0) (2025-08-25)
 
-
 ### Features
 
-* **about:** add About section ([95ceb1b](https://github.com/chetan-speck/personal-portfolio/commit/95ceb1b7ea58fd56b63815de268ef5dba63cea34))
+- **about:** add About section ([95ceb1b](https://github.com/chetan-speck/personal-portfolio/commit/95ceb1b7ea58fd56b63815de268ef5dba63cea34))
 
 # [1.4.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.3.0...v1.4.0) (2025-08-24)
 
-
 ### Features
 
-* **projects:** add professional & personal projects section ([ade22c2](https://github.com/chetan-speck/personal-portfolio/commit/ade22c2ff9b087a96212cae444c206119b8f2156))
+- **projects:** add professional & personal projects section ([ade22c2](https://github.com/chetan-speck/personal-portfolio/commit/ade22c2ff9b087a96212cae444c206119b8f2156))
 
 # [1.3.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.2.0...v1.3.0) (2025-08-24)
 
-
 ### Features
 
-* **experience:** implement Experience section ([867f2d5](https://github.com/chetan-speck/personal-portfolio/commit/867f2d5639ad8dd70264e0018071e963b9c0e118))
+- **experience:** implement Experience section ([867f2d5](https://github.com/chetan-speck/personal-portfolio/commit/867f2d5639ad8dd70264e0018071e963b9c0e118))
 
 # [1.2.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.1.0...v1.2.0) (2025-08-24)
 
-
 ### Features
 
-* **skills:** implement Skills section ([5f9027f](https://github.com/chetan-speck/personal-portfolio/commit/5f9027f9c67d04ef29d0815ebab17cba2566b601))
+- **skills:** implement Skills section ([5f9027f](https://github.com/chetan-speck/personal-portfolio/commit/5f9027f9c67d04ef29d0815ebab17cba2566b601))
 
 # [1.1.0](https://github.com/chetan-speck/personal-portfolio/compare/v1.0.0...v1.1.0) (2025-08-24)
 
-
 ### Features
 
-* **landing:** update experience description text for improved tone and clarity ([ce3bc9d](https://github.com/chetan-speck/personal-portfolio/commit/ce3bc9d36b57bfc0a3b235674e7179003e1aecc8))
+- **landing:** update experience description text for improved tone and clarity ([ce3bc9d](https://github.com/chetan-speck/personal-portfolio/commit/ce3bc9d36b57bfc0a3b235674e7179003e1aecc8))
 
 # 1.0.0 (2025-08-20)
 
-
 ### Features
 
-* add landing section ([f5dd72e](https://github.com/chetan-speck/personal-portfolio/commit/f5dd72edc1457ac624baad1ecbe0e2e43651958f))
+- add landing section ([f5dd72e](https://github.com/chetan-speck/personal-portfolio/commit/f5dd72edc1457ac624baad1ecbe0e2e43651958f))

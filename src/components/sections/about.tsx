@@ -36,7 +36,7 @@ const About: FC = (): JSX.Element => {
                             fontWeight: 500,
                         }}
                     >
-                        About
+                        About Me
                     </Typography>
                     <Stack
                         direction='column'
@@ -46,47 +46,47 @@ const About: FC = (): JSX.Element => {
                             variant='body1'
                             sx={{ color: 'text.primary' }}
                         >
-                            I&#39;m Chetan Thosare. I believe that growth comes from curiosity,
-                            consistency and connection. My journey so far has been full of learning,
-                            unlearning and rediscovering myself through challenges and small wins.
+                            I&#39;m Chetan Thosare. I believe growth comes from curiosity,
+                            consistency, and real connections. My journey so far has been about
+                            learning, unlearning, and learning again through both challenges and
+                            small wins.
                         </Typography>
                         <Typography
                             variant='body1'
                             sx={{ color: 'text.primary' }}
                         >
-                            What excites me most is creating something meaningful. This could mean
-                            solving a problem, helping someone or learning something new each day. I
-                            enjoy the process of turning ideas into reality. I value the
-                            relationships and lessons that come along the way even more.
+                            What excites me most is creating something meaningful whether it&#39;s
+                            helping people or learning something new every day. I enjoy turning
+                            ideas into reality, and I value the relationships I build and the
+                            experiences I gain along the way even more.
                         </Typography>
                         <Typography
                             variant='body1'
                             sx={{ color: 'text.primary' }}
                         >
-                            I see myself as a lifelong learner, always eager to explore, change and
-                            improve. Outside of work, I find joy in simple things like sharing a
-                            laugh, reflecting on life or appreciating the little moments that make
-                            the journey worthwhile.
+                            I see myself as a lifelong learner, always open to change and
+                            improvement. Outside of work, I enjoy simple things like sharing a
+                            laugh, thinking about life, and appreciating the small moments that make
+                            the journey meaningful.
                         </Typography>
                         <Typography
                             variant='body1'
                             sx={{ color: 'text.primary' }}
                         >
-                            Looking back on my journey, I&#39;m overwhelmed with gratitude for
-                            everyone who contributed to my growth. Your support, guidance and
-                            presence have been crucial to my success. To those who helped me learn
-                            and grow, thank you for your wisdom and encouragement. In tough times,
-                            your strength lifted me. Allies, mentors and champions, your belief in
-                            me fueled my determination. Even adversaries, your challenges made me
-                            stronger.
+                            I&#39;m truly grateful to everyone who has been part of my journey. Your
+                            support, guidance, and presence have helped shape who I am today. To
+                            those who helped me grow, thank you for your encouragement. During tough
+                            times, your strength kept me going. To my mentors, friends, and
+                            supporters - your belief in me meant everything. And to those who
+                            doubted me, you pushed me to work harder and prove myself.
                         </Typography>
                         <Typography
                             variant='body1'
                             sx={{ color: 'text.primary' }}
                         >
-                            To anyone I&#39;ve wronged, I ask for forgiveness. I&#39;m human and may
+                            If I&#39;ve ever hurt anyone, I&#39;m sorry. I&#39;m human, and I may
                             have made mistakes without meaning to. Thank you for being part of my
-                            journey. I am forever grateful.
+                            journey - I truly appreciate it.
                         </Typography>
                     </Stack>
                 </Stack>

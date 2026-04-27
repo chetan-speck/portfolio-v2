@@ -105,7 +105,7 @@ const Experience: FC = (): JSX.Element => {
                             fontWeight: 500,
                         }}
                     >
-                        Experience
+                        Work Experience
                     </Typography>
                     <Stack
                         direction='column'

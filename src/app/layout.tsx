@@ -15,7 +15,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Chetan Thosare • Portfolio',
     description:
-        'A modern personal portfolio website showcasing my skills, experience, and projects. Built with clean design, smooth interactions, and responsive layouts to highlight my journey as a developer.',
+        'A collection of my work as a full-stack developer, highlighting real-world projects, problem-solving, and the technologies I use to build scalable web apps.',
 };
 
 // ------------------------------------------------------------------------------------------

@@ -19,9 +19,6 @@ import {
     SiThreedotjs,
     SiTypescript,
 } from 'react-icons/si';
-
-import LuminousGlobeThumbnail from '@/assets/luminous-globe-thumbnail.png';
-import NumericHorizonThumbnail from '@/assets/numeric-horizon-thumbnail.png';
 import sectionIds from '@/constants/sectionIds';
 import { OpenInNewOutlined } from '@mui/icons-material';
 import {
@@ -159,41 +156,6 @@ const professionalProjects: ProfessionalProjectItem[] = [
     },
 ];
 
-const personalProjects: PersonalProjectItem[] = [
-    {
-        name: 'Luminous Globe',
-        description:
-            'An interactive 3D Earth visualization featuring smooth controls, realistic atmospheric lighting and a visually rich, dynamic representation of the planet. Users can explore the globe, view continents and oceans in high detail and enjoy an immersive 3D experience.',
-        techStack: [
-            { icon: SiHtml5, label: 'HTML' },
-            { icon: SiCss3, label: 'CSS' },
-            { icon: SiSass, label: 'SCSS' },
-            { icon: SiJavascript, label: 'JavaScript' },
-            { icon: SiTypescript, label: 'TypeScript' },
-            { icon: SiReact, label: 'React.js' },
-            { icon: SiThreedotjs, label: 'Three.js' },
-            { icon: SiGit, label: 'Git' },
-        ],
-        thumbnail: LuminousGlobeThumbnail.src,
-        url: 'https://luminous-globe.netlify.app/',
-    },
-    {
-        name: 'Numeric Horizon',
-        description:
-            'A modern, user-friendly scientific calculator built with React, TypeScript and Material-UI. It supports standard and advanced mathematical operations, provides an intuitive interface and ensures responsive performance across devices.',
-        techStack: [
-            { icon: SiHtml5, label: 'HTML' },
-            { icon: SiCss3, label: 'CSS' },
-            { icon: SiJavascript, label: 'JavaScript' },
-            { icon: SiTypescript, label: 'TypeScript' },
-            { icon: SiReact, label: 'React.js' },
-            { icon: SiGit, label: 'Git' },
-        ],
-        thumbnail: NumericHorizonThumbnail.src,
-        url: 'https://numeric-horizon.netlify.app/',
-    },
-];
-
 // ------------------------------------------------------------------------------------------
 
 const Projects: FC = (): JSX.Element => {
@@ -225,7 +187,7 @@ const Projects: FC = (): JSX.Element => {
                             fontWeight: 500,
                         }}
                     >
-                        Projects
+                        Things I&#39;ve Built
                     </Typography>
                     <Stack
                         direction='column'
@@ -295,146 +257,6 @@ const Projects: FC = (): JSX.Element => {
                                                             Project developed at{' '}
                                                             <Box component='strong'>{company}</Box>
                                                         </Typography>
-                                                    </Stack>
-                                                    <Stack
-                                                        direction='column'
-                                                        spacing={2}
-                                                    >
-                                                        <Stack
-                                                            direction='row'
-                                                            sx={{
-                                                                flexWrap: 'wrap',
-                                                                gap: 0.5,
-                                                            }}
-                                                        >
-                                                            {techStack.map(({ icon, label }) => {
-                                                                const Icon = icon;
-                                                                return (
-                                                                    <Chip
-                                                                        key={label}
-                                                                        icon={<Icon />}
-                                                                        label={label}
-                                                                        sx={{
-                                                                            p: 1,
-                                                                            width: 'fit-content',
-                                                                        }}
-                                                                    />
-                                                                );
-                                                            })}
-                                                        </Stack>
-                                                    </Stack>
-                                                </Stack>
-                                            </Card>
-                                        </Grid>
-                                    );
-                                }
-                            )}
-                        </Grid>
-                    </Stack>
-                    <Stack
-                        direction='column'
-                        spacing={{ xs: 2, sm: 3 }}
-                    >
-                        <Typography
-                            component='h6'
-                            variant='h6'
-                            sx={{
-                                color: 'text.secondary',
-                                fontSize: '18px',
-                                fontWeight: 500,
-                            }}
-                        >
-                            Personal Projects
-                        </Typography>
-                        <Grid
-                            container
-                            spacing={{ xs: 2, sm: 3 }}
-                        >
-                            {personalProjects.map(
-                                ({ name, description, techStack, thumbnail, url }) => {
-                                    return (
-                                        <Grid
-                                            key={name}
-                                            size={{ xs: 12, sm: 6 }}
-                                        >
-                                            <Card
-                                                key={name}
-                                                elevation={0}
-                                                sx={{
-                                                    height: '100%',
-                                                    borderRadius: 4,
-                                                    p: { xs: 2, sm: 3 },
-                                                }}
-                                            >
-                                                <Stack
-                                                    direction='column'
-                                                    spacing={2}
-                                                >
-                                                    <Box
-                                                        component={Link}
-                                                        href={url}
-                                                        target='_blank'
-                                                        rel='noopener noreferrer'
-                                                        sx={{
-                                                            width: '100%',
-                                                            overflow: 'hidden',
-                                                            borderRadius: 1,
-                                                            aspectRatio: '4 / 3',
-                                                            position: 'relative',
-                                                        }}
-                                                    >
-                                                        <Image
-                                                            src={thumbnail}
-                                                            alt={name}
-                                                            fill
-                                                            style={{
-                                                                objectFit: 'cover',
-                                                                userSelect: 'none',
-                                                                pointerEvents: 'none',
-                                                            }}
-                                                        />
-                                                    </Box>
-                                                    <Stack
-                                                        direction='column'
-                                                        spacing={2}
-                                                    >
-                                                        <Stack
-                                                            direction='row'
-                                                            spacing={2}
-                                                            alignItems='center'
-                                                            justifyContent='space-between'
-                                                        >
-                                                            <Typography
-                                                                sx={{
-                                                                    fontSize: '18px',
-                                                                    fontWeight: 500,
-                                                                    color: 'text.primary',
-                                                                }}
-                                                            >
-                                                                {name}
-                                                            </Typography>
-                                                            <IconButton
-                                                                size='small'
-                                                                component={Link}
-                                                                href={url}
-                                                                target='_blank'
-                                                                rel='noopener noreferrer'
-                                                                sx={{
-                                                                    color: 'text.secondary',
-                                                                }}
-                                                            >
-                                                                <OpenInNewOutlined fontSize='small' />
-                                                            </IconButton>
-                                                        </Stack>
-                                                        <Typography
-                                                            variant='body2'
-                                                            sx={{
-                                                                color: 'text.secondary',
-                                                            }}
-                                                        >
-                                                            {description}
-                                                        </Typography>
-                                                        <Divider />
                                                     </Stack>
                                                     <Stack
                                                         direction='column'

@@ -6,7 +6,7 @@
 
 import Image from 'next/image';
 import { FC, JSX } from 'react';
-
+import { SiMedium } from 'react-icons/si';
 import BauhausSectorDarkSvg from '@/assets/bauhaus-sector-dark.svg';
 import BauhausSectorLightSvg from '@/assets/bauhaus-sector-light.svg';
 import ProfilePhoto from '@/assets/profile.jpg';
@@ -86,10 +86,8 @@ const Landing: FC = (): JSX.Element => {
                                     variant='body1'
                                     sx={{ color: 'text.secondary' }}
                                 >
-                                    With {getDuration(new Date('2021-07-26'), new Date())} of
-                                    hands-on experience, I genuinely enjoy being part of something
-                                    in progress and find real joy in the process of creating and
-                                    bringing ideas to life.
+                                    {getDuration(new Date('2021-07-26'), new Date())} in, and I
+                                    still just enjoy building stuff as it comes together
                                 </Typography>
                                 <Stack
                                     direction='row'
@@ -169,6 +167,26 @@ const Landing: FC = (): JSX.Element => {
                                             rel='noopener noreferrer'
                                         >
                                             <LinkedIn />
+                                        </Button>
+                                    </Tooltip>
+                                    <Tooltip title='View Medium Profile'>
+                                        <Button
+                                            color='inherit'
+                                            size='medium'
+                                            variant='outlined'
+                                            sx={{
+                                                height: 40,
+                                                width: 40,
+                                                borderRadius: 5,
+                                                p: 0,
+                                                minWidth: 0,
+                                            }}
+                                            component='a'
+                                            href={contactInfo.medium}
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            <SiMedium />
                                         </Button>
                                     </Tooltip>
                                 </Stack>
